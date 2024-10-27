@@ -98,4 +98,5 @@ export default function(opts){
     const gun = Gun({ ...opts.gun, peers: ["proxy:websocket"], WebSocket: WebSocketProxy })
     attachGun(gun)
     return gun
+    //
 }
