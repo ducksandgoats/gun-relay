@@ -1,6 +1,6 @@
 {
   "name": "gun-relay",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,6 @@
   "dependencies": {
     "events": "^3.3.0",
     "gun": "github:amark/gun",
-    "relay-to-relay": "^1.0.9"
+    "relay-to-relay": "^2.0.0"
   }
 }
